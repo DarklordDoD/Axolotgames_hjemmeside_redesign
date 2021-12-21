@@ -5,11 +5,13 @@ body {
 
 #logo{
 	position: fixed;
+	top: 10px;
+	left: 4%;
 }
 
 .menu{
 	position: fixed;
-	top: 28px;
+	top: 38px;
 }
 
 #games{
@@ -21,7 +23,7 @@ body {
 }
 
 #info{
-	top: 30px;
+	top: 40px;
 	right: 2%;
 }
 
