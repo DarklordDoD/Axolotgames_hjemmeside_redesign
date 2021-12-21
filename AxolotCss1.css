@@ -1,0 +1,31 @@
+@charset "utf-8";
+body {
+	background: #00dee9;
+}
+
+#logo{
+	position: fixed;
+}
+
+.menu{
+	position: fixed;
+	top: 28px;
+}
+
+#games{
+	right: 34%;
+}
+
+#news{
+	right: 17%;
+}
+
+#info{
+	top: 30px;
+	right: 2%;
+}
+
+.wBotem{
+	position: relative;
+	top: 1000px;
+}
