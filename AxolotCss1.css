@@ -3,10 +3,21 @@ body {
 	background: #00dee9;
 }
 
+.wTop{
+	z-index: 2;
+	background:#00dee9;
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
 #logo{
 	position: fixed;
 	top: 10px;
 	left: 4%;
+	
 }
 
 .menu{
@@ -27,16 +38,28 @@ body {
 	right: 2%;
 }
 
-/*.products {
+.products{
+	z-index: 1;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+}
+
+#cm{
+	z-index: 1;
 	position: relative;
-	max-width: 1000px;
-	height: 594px;
-	background: #000000;
-	top: 5px;
-}*/
+	right: 450px;
+}
+
+#raft{
+	z-index: 1;
+	position: relative;
+	top: -305px;
+	left: 10px;
+}
 
 .wBotem{
-	position: relative;
+	position: absolute;
 	top: 1000px;
 	left: 50%;
 }
@@ -51,10 +74,6 @@ body {
 	position: relative;
 	bottom: -27px;
 	right: 25px;
-}
-
-@media screen and (max-width: 480px){
-
 }
 
 
