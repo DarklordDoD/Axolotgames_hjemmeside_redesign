@@ -63,8 +63,19 @@ body {
 #raft{
 	position: relative;
 	left: 460px;
-	top: -295px;
-	
+	top: -293px;
+}
+
+#cmPlay{
+	position: inherit;
+	left: 15%;
+	top: 330px
+}
+
+#raftPlay{
+	position: inherit;
+	right: 15%;
+	top: 330px;
 }
 
 .wBotem{
